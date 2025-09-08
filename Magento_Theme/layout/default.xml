@@ -1,16 +1,12 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
+    <head>
+        <css src="css/hacks.css"/>
+    </head>
+
     <body>
         <referenceContainer name="before.body.end">
             <block name="loki.alpine-csp" template="Loki_Theme::script/alpine-csp.phtml"/>
-
-            <block name="loki.css-properties" template="Loki_Theme::stylesheet/css-properties.phtml">
-                <arguments>
-                    <argument name="css_properties" xsi:type="array">
-                        <item name="message-demo-color" xsi:type="string">orange</item>
-                    </argument>
-                </arguments>
-            </block>
         </referenceContainer>
     </body>
 </page>

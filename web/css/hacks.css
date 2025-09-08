@@ -1,0 +1,11 @@
+nav.navigation ul li.level0:hover {
+    background-color: #eee;
+}
+
+nav.navigation ul li.level0:hover ul.level0 {
+    display: block;
+}
+
+.switcher-options:hover ul.switcher-dropdown {
+    display: block;
+}

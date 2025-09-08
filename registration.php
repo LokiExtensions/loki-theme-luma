@@ -8,4 +8,3 @@ ComponentRegistrar::register(
     'frontend/Loki/luma',
     __DIR__
 );
-
