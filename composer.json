@@ -1,0 +1,17 @@
+{
+  "name": "loki/magento2-luma-theme",
+  "version": "0.0.1",
+  "description": "Independent Magento 2 theme to remove all Luma JavaScript but keep Luma LESS",
+  "type": "magento2-theme",
+  "require": {
+    "magento/framework": "^103.0"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
