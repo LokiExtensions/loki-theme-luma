@@ -7,6 +7,7 @@
     <body>
         <referenceContainer name="before.body.end">
             <block name="loki.alpine-csp" template="Loki_Theme::script/alpine-csp.phtml"/>
+            <block name="loki.hacks" template="Loki_Theme::script/hacks.phtml"/>
         </referenceContainer>
     </body>
 </page>

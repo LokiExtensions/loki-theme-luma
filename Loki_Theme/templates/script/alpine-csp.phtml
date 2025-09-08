@@ -2,7 +2,7 @@
 
 /** @var \Magento\Framework\View\Element\Template $block */
 
-$jsUrl = $block->getViewFileUrl('Magento_Theme/js/alpine-csp.js');
+$jsUrl = $block->getViewFileUrl('js/alpine-csp.js');
 $defer = (bool)$block->getDefer();
 ?>
-<script type="<?= $jsUrl ?>" <?php if ($defer) : ?>defer<?php endif; ?>></script>
+<script defer src="<?= $jsUrl ?>" <?php if ($defer) : ?>defer<?php endif; ?>></script>
