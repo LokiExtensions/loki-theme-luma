@@ -1,11 +1,21 @@
-nav.navigation ul li.level0:hover {
+.navigation ul li.level0:hover {
     background-color: #eee;
 }
 
-nav.navigation ul li.level0:hover ul.level0 {
+.navigation ul li.level0:hover ul.level0 {
     display: block;
 }
 
-.switcher-options:hover ul.switcher-dropdown {
+.navigation .level0.parent > .level-top:after {
+    font-size: 12px;
+    line-height: 20px;
+    color: inherit;
+    content: '\e622';
+    padding-left: 5px;
+    font-family: 'luma-icons';
+}
+
+.page-header .panel.wrapper .switcher .switcher-options:hover ul.switcher-dropdown {
     display: block;
 }
+
