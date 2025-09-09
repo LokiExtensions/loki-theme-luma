@@ -1,14 +1,13 @@
 <?php
 declare(strict_types=1);
 
-use Loki\Components\Factory\ViewModelFactory;
 use Loki\Theme\ViewModel\FormKeyValue;
 use Magento\Framework\View\Element\Template;
 
 /** @var Template $block */
-/** @var ViewModelFactory $viewModelFactory */
 /** @var FormKeyValue $formKeyValue */
-$formKeyValue = $viewModelFactory->create(FormKeyValue::class);
+
+$formKeyValue = $block->getFormKeyValue();
 ?>
 <script>
     var BASE_URL = '<?= $block->getBaseUrl() ?>';
