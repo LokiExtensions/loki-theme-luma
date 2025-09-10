@@ -1,8 +1,0 @@
-<?php declare(strict_types=1);
-
-/** @var \Magento\Framework\View\Element\Template $block */
-
-$jsUrl = $block->getViewFileUrl('js/alpine-csp.js');
-$defer = (bool)$block->getDefer();
-?>
-<script defer src="<?= $jsUrl ?>" <?php if ($defer) : ?>defer<?php endif; ?>></script>
