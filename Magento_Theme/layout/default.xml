@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <head>
-        <css src="Loki_Theme::css/hacks.css"/>
+        <css src="css/hacks.css"/>
     </head>
 </page>
