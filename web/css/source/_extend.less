@@ -7,3 +7,13 @@
 @message-info__background: #d9e6ff;
 @message-info-icon__color-inner: #0b378b;
 @message-info-icon__background: #d9e6ff;
+
+& when (@media-common = true) {
+    .page.messages {
+        .loki-messages {
+            .message {
+                box-shadow: 1px 1px 5px #aaa;
+            }
+        }
+    }
+}
